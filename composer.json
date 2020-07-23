@@ -1,31 +1,23 @@
 {
-    "name": "sylius/theme-bundle",
+    "name": "ralaper/theme-bundle",
     "type": "symfony-bundle",
     "description": "Themes management for Symfony projects.",
     "keywords": ["themes", "theming"],
-    "homepage": "https://sylius.com",
+    "homepage": "https://hnfeitu.com",
     "license": "MIT",
     "authors": [
         {
-            "name": "Kamil Kokot",
-            "homepage": "https://kamilkokot.com"
-        },
-        {
-            "name": "Sylius project",
-            "homepage": "https://sylius.com"
-        },
-        {
             "name": "Community contributions",
-            "homepage": "https://github.com/Sylius/Sylius/contributors"
+            "homepage": "https://github.com/ralaper"
         }
     ],
     "require": {
-        "php": "^7.3",
+        "php": "^7.2",
 
         "symfony/asset": "^4.4|^5.0",
         "symfony/config": "^4.4|^5.0",
         "symfony/console": "^4.4|^5.0",
-        "symfony/translation-contracts": "^1.1|^2.0",
+        "symfony/translation-contracts": "^1.1|^2.1.3",
         "symfony/dependency-injection": "^4.4|^5.0",
         "symfony/filesystem": "^4.4|^5.0",
         "symfony/finder": "^4.4|^5.0",
